@@ -1,7 +1,38 @@
-@media screen and (max-width: 980px) {
-    body {
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+body {
+    background-image: url('../images/fond_bouchons.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #141E1F;
+}
+
+.bg-red
+{
+    background-color:#701F2E;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FBFAFF;
+    font-size: xx-large;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+a.nav-link {
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.c-font
+{
+    font-size: 62px;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.g-font
+{
+    font-size: large;
+    font-family: 'Rubik', sans-serif;
 }
