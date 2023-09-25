@@ -1,2 +1,2 @@
 # avalonzone.github.io
-Static Project
+IFOPlus - Projet Statique
