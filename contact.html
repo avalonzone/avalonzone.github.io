@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-12">
                 <a href="index.html">
-                    <img src="./images/deconinck-index.jpg" alt="Deconinck Index" class="img-fluid"/>
+                    <img src="./images/deconinck-index.jpg" alt="Deconinck Index" class="cropped-img"/>
                 </a>
                 </div>
             </div>
@@ -49,21 +49,50 @@
                     </li>
                 </ul>
             </div>
-          </div>
-        </nav>
+        </div>
+    </nav>
     <div class="d-flex justify-content-center">
-        <p class="c-font">Deconinck Wine and Spirit since 1886</p>
-    </div>
-    <div class="d-flex justify-content-center">
-        <p class="text-center g-font">
-                Rue Lahaut B-1380 Genappe<br>
-                Tel. +32 2/658.26.15<br>
-                TVA 111.256.2458<br>
-        </p>
+        <div class="card card-box">
+            <div class="card-header">
+                <b class="font-red">Contact</b>
+            </div>
+            <form action="#">
+                <div class="card-body">
+                    
+                    <div class="rounded-border-box">
+                        <div class="c-title">Vos coordonées</div>
+                        <div class="row gy-1">
+                            <div class="col-2">Nom :</div>
+                            <div class="col-10"><input type="text" class="form-control" id="inputWineNameId" placeholder="Entrez votre nom" name="firstname" ></div>
+                            <div class="col-2">Prénom :</div>
+                            <div class="col-10"><input type="text" class="form-control" id="inputWineNameId" placeholder="Entrez votre prénom" name="lastname" ></div>
+                            <div class="col-2">Téléphone :</div>
+                            <div class="col-10"><input type="text" class="form-control" id="inputWineNameId" placeholder="Entrez votre numéro de Téléphone" name="phone" ></div>
+                            <div class="col-2">Mail :</div>
+                            <div class="col-10"><input type="email" class="form-control" id="inputWineNameId" placeholder="Entrez votre adresse mail" name="email" ></div>
+                        </div>
+                    </div>
+                    <div class="rounded-border-box">
+                        <div class="c-title">Votre question</div>
+                        <div class="row">
+                            <div class="col-12"><textarea class="form-control" id="textAreaWineDescriptionId" placeholder="Entrez votre question" rows="3" name="message"></textarea></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-lg-2">
+                                <button class="btn button-red" type="submit">Envoyer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
     <div class="d-flex justify-content-center">
         <a class="g-font-small" aria-current="page" href="https://www.deconinckwine.com/conditions-generales-de-vente/">Mentions légales</a>
     </div>
     </main>
+    
 </body>
 </html>

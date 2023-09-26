@@ -3,10 +3,25 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
 }
 
 header {
     background-color: #141E1F;
+}
+
+.cropped-img {
+    width: 920px; 
+    height: 150px;
+    object-fit: cover;
+    object-position: 25% 55%;
+}
+
+.button-red
+{
+    background-color:#701F2E;
+    color: #FBFAFF;
+    font-weight:bolder;
 }
 
 .bg-red
@@ -31,8 +46,74 @@ a.nav-link {
     font-family: 'Monsieur La Doulaise', cursive;
 }
 
+.image-border
+{
+    border: 1px solid #701F2E;
+}
+
+.box-transparent
+{
+    background-color: transparent;
+    border:none;
+}
+
 .g-font
 {
     font-size: large;
     font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color:#701F2E;
+}
+
+.text-first p::first-letter {
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: #701F2E;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.g-font-small
+{
+    font-size: small;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 32px;
+
+}
+
+.font-red
+{
+    color:#701F2E;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card-box
+{
+    background-color: rgba(251, 250, 255, 0.7);
+    border-color: #701F2E;
+    border-style: solid;
+    border-width: 1px;
+    max-width: 980px;
+}
+
+.c-title
+{
+    top: -34px;
+    position: absolute;
+    font-size: xx-large;
+    font-weight:bolder;
+    color:#701F2E;
+    font-family: 'Monsieur La Doulaise', cursive;
+    z-index: 1;
+}
+
+.rounded-border-box
+{
+    position: relative;
+    max-width: 100%;
+    margin: 32px;
+    padding: 20px;
+    border: 1px solid #701F2E;
+    border-radius: 10px;
+    text-align: left;
+    background-color: transparent;
 }
